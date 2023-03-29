@@ -11,6 +11,7 @@
                 for (int j = 0; j < 5; j++)
                 {
                     numeros[j] = numeros[j] = Convert.ToInt32(recorteString[j]);
+                    Console.WriteLine(recorteString);
                 }
                 int calculoDeMaiorNumero = numeros[0] * numeros[1] * numeros[2] * numeros[3] * numeros[4];
                 if (calculoDeMaiorNumero > maiorProduto)
